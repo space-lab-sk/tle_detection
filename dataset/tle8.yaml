@@ -1,0 +1,9 @@
+# train and val data as 1) directory: path/image/, 2) file: path/image.txt, or 3) list: [path1/image/, path2/image/]
+train: ../dataset/trainbatch8.txt
+val: ../dataset/valbatch.txt
+
+# number of classes
+nc: 1
+
+# class names
+names: ['event']
